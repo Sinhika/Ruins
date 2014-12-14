@@ -5,7 +5,7 @@
 uniqueMinDistance=1000
 weight=1
 embed_into_distance=5
-acceptable_target_blocks=stone,grass,dirt,sand,gravel
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,sand,sandstone,snow,snow_layer
 dimensions=16,18,18
 allowable_overhang=0
 max_leveling=2

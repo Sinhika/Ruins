@@ -1,10 +1,10 @@
 # Converted from schematic
 # THIS TEMPLATE USES DEFAULTS!  Please edit for corrections.
 # If you need help, consult template_rules.txt
-uniqueMinDistance=2000
+uniqueMinDistance=5000
 weight=1
 embed_into_distance=3
-acceptable_target_blocks=stone,grass,dirt,gravel
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,sand,sandstone
 dimensions=30,43,26
 allowable_overhang=0
 max_leveling=0
@@ -78,7 +78,7 @@ rule59=2,100,torch-3
 rule60=2,100,ladder-3
 # illusionary wall
 #rule61=0,100,-11
-rule61=0,100,stained_hardened_clay
+rule61=0,100,planks-3
 rule62=1,100,bed-3
 rule63=1,100,bed-11
 rule64=0,100,chest-4
@@ -93,7 +93,7 @@ rule72=0,100,oak_stairs-1
 rule73=1,100,wooden_door-8
 rule74=0,100,oak_stairs-4
 rule75=0,100,oak_stairs-5
-rule76=0,100,PreserveBlock
+rule76=0,100,preserveBlock
 
 layer
 4,4,1,4,1,1,1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,1,1,1

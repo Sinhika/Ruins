@@ -1,14 +1,13 @@
 # Author: ksheep
 # From: Minecraft Forums
 
-biomesToSpawnIn=hell,boneyard,phantasmagoric inferno,corrupted sands,bloody heap,nether,sludgepit,undergarden
-weight=2
+biomesToSpawnIn=hell,boneyard,phantasmagoric inferno,corrupted sands,bloody heap,nether,undergarden
+weight=1
+uniqueMinDistance=1200
 embed_into_distance=1
-acceptable_target_blocks=gravel,netherrack,soul_sand,snow_layer
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
 dimensions=5,7,8
 allowable_overhang=2
-max_cut_in=2
-cut_in_buffer=1
 max_leveling=2
 leveling_buffer=1
 preserve_water=0

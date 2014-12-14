@@ -2,10 +2,10 @@
 # THIS TEMPLATE USES DEFAULTS!  Please edit for corrections.
 # If you need help, consult template_rules.txt
 
-uniqueMinDistance=8000
+uniqueMinDistance=20000
 weight=1
 embed_into_distance=1
-acceptable_target_blocks=stone,grass,dirt,sand,gravel
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
 dimensions=60,29,29
 allowable_overhang=0
 max_leveling=2
