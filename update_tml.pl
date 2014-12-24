@@ -179,4 +179,6 @@ s/rule(\d+)=0,100,172\s?$/rule$1=0,100,hardened_clay/;
 s/rule(\d+)=0,100,173\s?$/rule$1=0,100,coal_block/;
 s/rule(\d+)=0,100,174\s?$/rule$1=0,100,packed_ice/;
 s/rule(\d+)=0,100,175(-\d{1,2})?\s?$/rule$1=0,100,double_plant$2/;
+s/^max_cut_in=\d+$//;
+s/^cut_in_buffer=\d+$//;
 

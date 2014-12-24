@@ -3,17 +3,17 @@
 
 weight=2
 embed_into_distance=2
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,Natura:Cloud
 dimensions=10,13,13
 allowable_overhang=0
 max_leveling=3
 leveling_buffer=-1
 preserve_water=0
-preserve_lava=0
+preserve_lava=1
 preserve_plants=0
 
 
-rule1=0,0,wool-5
+rule1=0,0,preserveBlock
 rule2=0,100,UndergroundBiomes:igneousStone-1,UndergroundBiomes:igneousStone-4,UndergroundBiomes:igneousStone-5,UndergroundBiomes:igneousStone-7
 rule3=0,100,flowing_lava
 rule4=0,75,UndergroundBiomes:igneousStone-1,UndergroundBiomes:igneousStone-4,UndergroundBiomes:igneousStone-5,UndergroundBiomes:igneousStone-7
